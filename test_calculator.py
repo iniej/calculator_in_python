@@ -15,11 +15,11 @@ class TestCalculator(unittest.TestCase):
         # Test addition function with some data.
         self.assertEqual(3, ui.substraction(5,2))
         self.assertEqual(10, ui.substraction(25,15))
-
+        # Test nultiplication fuction withsome data
     def test_calculator_multiplication(self):
         self.assertEqual(10, ui.multiplication(5,2))
         self.assertEqual(250, ui.multiplication(25,10))
-
+        # Test division fuction with some data
     def test_calculator_division(self):
         self.assertEqual(3, ui.division(6,0))
         self.assertEqual(10, ui.division(100,10))
